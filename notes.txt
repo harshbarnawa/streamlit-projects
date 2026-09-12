@@ -1,0 +1,26 @@
+## installing uv for modern and fast package manager + virtuall env
+## pip install uv
+
+Adding path first
+## $env:Path += ";C:\Users\harsh\AppData\Local\Python\pythoncore-3.14-64\Scripts"
+# uv init
+# uv add streamlit
+
+
+## Testing this basic streamlit program
+# uvx streamlit run main.py
+"""
+import streamlit as st
+
+st.title("Hello world")
+st.header("Made by streamlit")
+st.text("Welcome to my first app")
+st.write("Choose your fav data")
+
+aa = st.selectbox("Your fav data: ", ["row", "col","matrix"])
+
+st.write(f"You choosed {aa}. Excellent")
+
+st.success("You selected data successfully")
+"""
+
