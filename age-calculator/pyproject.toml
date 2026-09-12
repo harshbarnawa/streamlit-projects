@@ -1,0 +1,19 @@
+[project]
+name = "age-calculator"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Harsh Barnawa", email = "harshbarnawa.info@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "streamlit>=1.63.0",
+]
+
+[project.scripts]
+age-calculator = "age_calculator:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"

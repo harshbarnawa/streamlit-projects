@@ -1,22 +1,33 @@
 # Streamlit Mini Projects
 
-A collection of interactive mini projects built using **Streamlit** while exploring Python-based web applications and data interfaces.
+A collection of interactive mini projects built using **Streamlit**.
 
-![Project Preview](./interface.png)
+## 📄 PDF Downloader UI
 
-## Projects
+A simple Streamlit interface designed for downloading PDFs through a clean and easy-to-use UI.
 
-* Age Calculator
-* Dashboards
-* PDF Downloader UI
-* More projects coming soon
+![PDF Downloader](pdf_downloader_ui/pdf.png)
 
-## Tech Stack
+### How to Run
 
-* Python
-* Streamlit
-* uv
+```bash
+cd src/pdf_downloader_ui
+uvx streamlit run main.py
+```
+
+## 🎂 Age Calculator
+
+A simple Streamlit application that calculates your age based on your selected birthdate.
+
+![Age Calculator](age-calculator/age.png)
+
+### How to Run
+
+```bash
+cd src/age-calculator
+uvx streamlit run main.py
+```
 
 ---
 
-More projects and experiments will be added as I continue learning and building with Streamlit.
+More Streamlit projects will be added as I continue learning and building.
