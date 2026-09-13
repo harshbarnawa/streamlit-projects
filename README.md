@@ -8,7 +8,7 @@ A Streamlit-based data analysis application created as a demo version of my **1C
 
 This project is currently a preview/demo, and the final version of **1ClickStat** will be developed further.
 
-![Data Analysis Streamlit](data-analysis-streamlit/da.png)
+![Data Analysis Streamlit](data-analysis-streamlit/da3.png)
 
 ### How to Run
 
